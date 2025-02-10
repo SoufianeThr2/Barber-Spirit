@@ -1,0 +1,36 @@
+/* admin.css */
+
+/* Style pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Style pour la barre de navigation */
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+}
+
+/* Style pour le tableau */
+.table th {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Style pour le bouton de suppression */
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
